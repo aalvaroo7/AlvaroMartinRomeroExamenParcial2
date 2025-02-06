@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // Crear el botón de eliminar
             const btnEliminar = document.createElement("button");
-            btnEliminar.textContent = "X";
+            btnEliminar.textContent = "Eliminar"; // Ahora dice "Eliminar"
             btnEliminar.classList.add("eliminarTarea");
 
             // Evento para eliminar la tarea
