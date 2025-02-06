@@ -1,0 +1,226 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin: 20px 0;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+/* Contenedores principales */
+.ejercicio {
+    margin: 30px auto;
+    width: 50%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 22px;
+    color: #222;
+    border-bottom: 2px solid #ff6600;
+    padding-bottom: 5px;
+}
+
+/* -------------------- */
+/* 🔸 EJERCICIO 1 🔸 */
+/* -------------------- */
+.contenedor {
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.texto {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid black;
+    display: inline-block;
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+/* Cambia el fondo al hacer clic */
+.cambiado {
+    background-color: #ffcc00 !important;
+}
+
+/* -------------------- */
+/* 🔸 BOTONES 🔸 */
+/* -------------------- */
+button {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #e65c00;
+}
+
+/* -------------------- */
+/* 🔸 EJERCICIO 2 🔸 */
+/* -------------------- */
+/* Contenedor de las tareas */
+#listaTareas {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+/* Cada tarea añadida */
+.task {
+    background: #ffcc00;
+    padding: 12px;
+    margin: 8px auto;
+    border: 2px solid black;
+    width: 80%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Botón de eliminar dentro de cada tarea */
+.eliminarTarea {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.eliminarTarea:hover {
+    background-color: darkred;
+}
+
+#nuevaTarea {
+    width: 70%;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#agregarTarea {
+    background-color: #28a745;
+}
+
+#agregarTarea:hover {
+    background-color: #218838;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.task {
+    background: #ffcc00;
+    padding: 12px;
+    margin: 8px auto;
+    border: 2px solid black;
+    width: 80%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.task:hover {
+    background: #f4b400;
+}
+
+/* -------------------- */
+/* 🔸 EJERCICIO 3 🔸 */
+/* -------------------- */
+#menuPizzas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+#cargarMenu {
+    background-color: #007bff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#cargarMenu:hover {
+    background-color: #0056b3;
+}
+
+.pizza-item {
+    background: white;
+    padding: 15px;
+    border: 2px solid #ff6600;
+    text-align: center;
+    width: 160px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+/* Ocultar el menú inicialmente */
+.oculto {
+    display: none;
+}
+
+/* -------------------- */
+/* 🔸 EJERCICIO 4 🔸 */
+/* -------------------- */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px #aaa;
+}
+
+input, select {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.success {
+    color: green;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+}

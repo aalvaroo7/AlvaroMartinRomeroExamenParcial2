@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Examen DOM</title>
+  <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+<h1>Examen DOM</h1>
+
+<!-- CONTENEDORES SEPARADOS POR EJERCICIO -->
+<div class="ejercicio" id="ejercicio1">
+  <h2>Ejercicio 1</h2>
+  <div class="contenedor" id="contenedor1">
+    <p class="texto">Color modificado</p>
+    <button id="cambiarColor">Cambiar Color</button>
+  </div>
+</div>
+
+<div class="ejercicio" id="ejercicio2">
+  <h2>Ejercicio 2</h2>
+  <div class="contenedor" id="contenedor2">
+    <input type="text" id="nuevaTarea" placeholder="Escribe una tarea">
+    <button id="agregarTarea">Añadir tarea</button>
+    <ul id="listaTareas"></ul>
+  </div>
+</div>
+
+<div class="ejercicio" id="ejercicio3">
+  <h2>Ejercicio 3</h2>
+  <div class="contenedor">
+    <h3>Menú de Pizzas</h3>
+    <button id="cargarMenu">Cargar Menú</button>
+    <div id="menuPizzas" class="oculto"></div> <!-- Ocultamos inicialmente el menú -->
+  </div>
+</div>
+
+
+<div class="ejercicio" id="ejercicio4">
+  <h2>Ejercicio 4</h2>
+  <div class="contenedor">
+    <h3>Reserva tu mesa</h3>
+    <form id="reservaForm">
+      <input type="text" id="nombre" placeholder="Nombre completo" required>
+      <input type="date" id="fecha" required>
+      <input type="time" id="hora" required>
+      <input type="number" id="personas" placeholder="Número de personas" required>
+      <button type="submit">Reservar</button>
+      <p id="mensaje"></p>
+    </form>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
